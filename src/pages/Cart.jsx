@@ -31,8 +31,8 @@ const Cart = () => {
             </tr>
         })}
         <tr className='text-center'>
-            <td className=' border-2 border-solid p-3'>Total</td>
-            <td className=' border-2 border-solid p-3'>{total}</td>
+            <td className=' border-2 border-solid p-3 font-bold'>Total</td>
+            <td className=' border-2 border-solid p-3 font-bold'>{total}</td>
         </tr>
        </table>
     </div>
