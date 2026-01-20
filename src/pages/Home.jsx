@@ -65,7 +65,7 @@ const products = [
   },
 ];
   return (
-    <div className='w-full h-screen  bg-gray-800 grid grid-cols-1 items-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 p-1.5 justify-items-center'>
+    <div className='w-full min-h-screen  bg-gray-800 grid grid-cols-1 items-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 p-1.5 justify-items-center'>
       {  products.map((ele)=>{ 
         return <Card key={ele.id} obj={ele}/>
        })}
