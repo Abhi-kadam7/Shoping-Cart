@@ -27,7 +27,7 @@ const Cart = () => {
             return <tr key={i} className='text-center' >
                 <td className=' border-2 border-solid p-3'>{ele.name}</td>
                 <td className=' border-2 border-solid p-3'>{ele.price}</td>
-                <td className=' border-2 border-solid p-3'><button className=' hover:scale-110 cursor-pointer' onClick={()=>{ handleDelete(i)}}>❌</button></td>
+                <td className=' border-2 border-solid p-3'><button className=' hover:scale-120 cursor-pointer' onClick={()=>{ handleDelete(i)}}>❌</button></td>
             </tr>
         })}
         <tr className='text-center'>
